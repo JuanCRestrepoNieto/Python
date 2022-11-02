@@ -1,0 +1,199 @@
+Python
+
+Algoritmo
+- No ambiguo (que un método tenga el mismo significado en todo lado)
+
+Console Cmder
+
+    ctrl l para limpiar la consola
+
+    cd (chase directory) 
+
+    cd .. (carpeta padre)
+
+    cd Folder
+
+    ls (list from folder of its documents/folders)
+
+    mkdir (make directory) folderName
+
+    touch example.txt (create a document)
+
+    exit() para salir del modo python
+
+La consola nos permite ejecutar líneas de código de forma independiente
+
+El comando que lo inicia es py en windows
+Sale la versión de python, la fecha, y comandos para empezar a trabajar.
+>>> es para escribir código python
+
+>>> 5 + 5 
+10
+
+>>> print(5 + 5)
+10
+
+>>> 5 - 5
+0
+>>> 2 * 5
+10
+
+>>> 21 / 5
+4.2
+
+>>> 21 // 5
+4
+
+>>> 21 % 5
+1
+
+>>> 2 ** 2
+4
+
+>>> 5 + 5 * 2
+15
+
+import numpy
+>>> sqrt(4)
+2
+
+>>> 4**0.5
+2
+
+import math
+>>> math.sqrt(25)
+5
+
+
+Variables
+
+    ¿Qué es?
+        Símbolo constituyente de un predicado, para asignar una cantidad suceptible a cambios
+    
+    Para asignar un valor
+    num = 3
+
+>>> num1 = 5
+>>> num2 = 6
+>>> num1-num2
+-1
+>>> num2-num1
+1
+>>> num2-num2
+0
+>>> num1+num2
+11
+
+Uso de variable_a, separar las palabras por guión bajo
+
+Variables Primitivas (tipos de datos sencillos)
+        Enteros
+        Punto flotante (decimales)
+        Texto
+        Bool
+
+    >>> nombre = "Juan"
+    >>> nombre
+    'Juan'
+    >>> nombre = 'Juan'
+    >>> nombre
+    'Juan'
+
+    >>> nombre1 = 'José'
+    >>> nombre+nombre1
+    'JuanJosé'
+
+    >>> nombre*10
+    'JuanJuanJuanJuanJuanJuanJuanJuanJuanJuan'
+    >>>
+
+    >>> booleano = false
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    NameError: name 'false' is not defined. Did you mean: 'False'?
+    >>> booleano = False
+    >>> booleano
+    False
+    >>>
+
+Input y Casteo
+    >>> num1 = input("Escribe un número: ")
+    Escribe un número: 5,
+    >>> num1
+    '5,'
+    >>> num1=input("Escribe un número")
+    Escribe un número1
+    >>> num1
+    '1'
+    >>>>>> num2 = input("Escribe un número: ")
+    Escribe un número: 4
+    >>> num1+num2
+    '14'
+    >>>
+
+    >>> num1 = int(num1)
+    >>> num1
+    1
+    >>> num2 = int(num2)
+    >>> num2
+    4
+    >>> num1+num2
+    5
+    >>>
+
+    >>> numDec = 4.6
+    >>> int(4.6)
+    4
+    >>> numDec = str(numDec)
+    >>> numDec
+    '4.6'
+    >>>
+
+Operadore lógicos y comparación
+Lógicos
+    >>> es_estudiante = True
+    >>> es_estudiante
+    True
+    >>> trabaja = False
+    >>> trabaja
+    False
+    >>> es_estudiante and trabaja
+    False
+    >>> es_estudiante or trabaja
+    True
+    >>> not es_estudiante
+    False
+    >>> not trabaja
+    True
+    >>> es_estudiante and not trabaja
+    True
+    >>>
+
+Comparación
+    >>> num1 = 5
+    >>> num2= 5
+    >>> num1 == num2
+    True
+    >>> num3 =8
+    >>> num1 == num3
+    False
+    >>> num1 != num3
+    True
+    >>> num > num3
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    NameError: name 'num' is not defined. Did you mean: 'num1'?
+    >>> num1 >num3
+    False
+    >>> num1<num3
+    True
+    >>> num1<num2
+    False
+    >>> num1>=num3
+    False
+    >>> num1<=num3
+    True
+    >>> num1>=num2
+    True
+    >>>
+
