@@ -197,3 +197,7 @@ Comparación
     True
     >>>
 
+Funciones
+
+    def imprimir_mensaje():
+        print ("Mensaje")
