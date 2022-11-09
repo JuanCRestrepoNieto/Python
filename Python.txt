@@ -201,3 +201,9 @@ Funciones
 
     def imprimir_mensaje():
         print ("Mensaje")
+
+Métodos
+    nombre.upper()
+        Volver la cadena de texto en mayúscula 
+    nombre.capitalize()
+    
