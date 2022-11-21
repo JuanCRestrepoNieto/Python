@@ -198,7 +198,6 @@ Comparación
     >>>
 
 Funciones
-
     def imprimir_mensaje():
         print ("Mensaje")
 
@@ -206,4 +205,53 @@ Métodos
     nombre.upper()
         Volver la cadena de texto en mayúscula 
     nombre.capitalize()
-    
+    nombre.strip()  Elimina los espacios basura al final y principio de la cadena
+    nombre.lower()  
+    nombre[0]
+    len(nombre) devuelve el tamaño de la cadena de caracteres
+
+
+Slices
+    pla|tzi
+    p|latzi
+    nombre = "Francisco"
+    nombre[0] 
+    va retornar F
+    nombre[0:3] 
+    retorna Fra
+    nombre[:3] 
+    retorna Fra
+    nombre[3:] 
+    ncisco
+    nombre[1:7:2] 
+    retorna rni, el último índice indica cuantos saltos realizar para retornar un valor
+    nombre[::]
+    Francisco
+    nombre[1::3]
+    rcc
+    nombre[::-1]
+    ocsicnarF (palíndromo)
+
+Palíndromos
+
+
+Ciclos
+    Imprimir todas las potencias de 2 hasta llegar a 1000
+
+    while(cont < limite):
+        print(cont)
+        cont += 1
+
+    for cont in range(limite):
+        print(cont)
+
+Constante
+    NUMERO = 1
+    const igual 1, se define constante con su nombre en mayúscula
+
+list
+    a = list(range(1000))
+    print(a)
+    '[0, 1, 2, ..., 998, 999]'
+    a = list(range(1, 1001))
+    '[1, 2, 3, ..., 999, 1000]'
